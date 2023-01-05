@@ -1,0 +1,31 @@
+{
+  "files.exclude": {
+    "**/.DS_Store": true,
+    "**/.git": true,
+    "**/node_modules": true,
+    ".{dev,shadowenv.d}": true,
+    "{build,dist}/": true,
+    "examples/*/build": true,
+    ".next": true,
+    ".github": true,
+    ".vercel": true
+  },
+  "editor.formatOnSave": true,
+  "search.exclude": {
+    "**/node_modules": true,
+    ".{dev,shadowenv.d}": true,
+    "{build,dist}/": true,
+    "examples/*/build": true,
+    ".next": true,
+    "**/.next": true,
+    "package-lock.json": true,
+    "pnpm-lock.yaml": true
+  },
+  "vscord.status.details.enabled": false,
+  "vscord.status.details.idle.enabled": false,
+  "vscord.status.details.text.editing": "",
+  "vscord.status.state.text.viewing": "",
+  "vscord.status.image.small.viewing.text": "",
+  "vscord.status.button.active.label": ""
+}
+
